@@ -1,0 +1,6 @@
+Download Apache Spark
+wget https://www-eu.apache.org/dist/spark/spark-2.4.4/spark-2.4.4-bin-hadoop2.7.tgz
+tar -xzf spark-2.4.4-bin-hadoop2.7.tgz
+rm spark-2.4.4-bin-hadoop2.7.tgz
+SPARK_HOME=$HOME/spark-2.4.4-bin-hadoop2.7
+jupyter serverextension enable --sys-prefix jupyter_server_proxy
